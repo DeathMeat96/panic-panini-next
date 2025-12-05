@@ -12,7 +12,7 @@ export default function About() {
 	return (
 		<section
 			id="about"
-			className={`relative flex flex-col items-center justify-end w-full mt-16 mx-auto max-w-600 mb-64 lg:flex-row lg:mt-80 lg:mb-100`}>
+			className={`relative flex flex-col items-center justify-end w-full mt-32 mx-auto max-w-600 mb-64 lg:flex-row lg:mt-80 lg:mb-100`}>
 			<Container customClasses="lg:absolute lg:left-1/2 lg:-translate-x-1/2">
 				<div
 					className="relative flex flex-col lg:max-w-md xl:max-w-2xl 2xl:max-w-4xl"

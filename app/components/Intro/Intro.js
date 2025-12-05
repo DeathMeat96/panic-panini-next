@@ -14,7 +14,7 @@ const observerOptions = {
 const SLIDE_IMAGES = [
 	"/frame-band.jpg",
 	"/frame-band2.jpg",
-	"/frame-band3.jpg",
+
 	"/frame-band4.jpg",
 ];
 

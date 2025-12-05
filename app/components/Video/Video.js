@@ -79,7 +79,7 @@ export default function Video() {
 	}, []);
 
 	return (
-		<section id="video" className="w-full mt-64 lg:mt-56">
+		<section id="video" className="w-full mt-48 lg:mt-56">
 			<Container customClasses="flex flex-col lg:flex-row">
 				{/* TEXT SECTION */}
 				<div
