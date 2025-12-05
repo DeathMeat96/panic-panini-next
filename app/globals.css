@@ -2,7 +2,7 @@
 
 @theme {
 	--background-image-album-cover: url("/panic-panini-album.jpg");
-	--background-image-incoming-shows: url("/coming-shows-bg.jpg");
+	--background-image-incoming-shows: url("/coming-shows-bg.png");
 	--background-image-hero-pattern: url("/pattern.png");
 
 	--font-permanent-marker: var(--font-permanent-marker), cursive;

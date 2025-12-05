@@ -18,13 +18,10 @@ export default function BandIdentity() {
 						height={236}
 						alt="Panic Panini logo"
 					/>
-					<ScrollTo toId="shows" duration={1500}>
-						<ButtonPrimary customClasses="text-sm">Live gigs</ButtonPrimary>
-					</ScrollTo>
 				</Container>
 			</div>
-			<div className="hidden h-full flex-col justify-between grow-0 shrink-0 bg-black z-10 bg-opacity-30 lg:flex">
-				<div className="logo-container border-y-[1.25rem] border-fluo-green py-4">
+			<div className="hidden h-full flex-col justify-between grow-0 shrink-0  z-10 bg-opacity-30 lg:flex">
+				<div className="logo-container  py-4">
 					<Image
 						className="px-12 py-3 max-w-75 h-auto"
 						src="/logo-portrait.png"
@@ -33,7 +30,7 @@ export default function BandIdentity() {
 						alt="Panic Panini logo"
 					/>
 				</div>
-				<NewAlbum />
+
 			</div>
 		</>
 	);

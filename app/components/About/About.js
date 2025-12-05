@@ -12,7 +12,7 @@ export default function About() {
 	return (
 		<section
 			id="about"
-			className={`relative flex flex-col items-center justify-end w-full mt-16 mx-auto max-w-600 lg:flex-row lg:mt-56`}>
+			className={`relative flex flex-col items-center justify-end w-full mt-16 mx-auto max-w-600 mb-64 lg:flex-row lg:mt-80 lg:mb-100`}>
 			<Container customClasses="lg:absolute lg:left-1/2 lg:-translate-x-1/2">
 				<div
 					className="relative flex flex-col lg:max-w-md xl:max-w-2xl 2xl:max-w-4xl"
@@ -24,44 +24,22 @@ export default function About() {
 					}}>
 					<div className="overflow-hidden">
 						<h2
-							className={`font-bold text-6xl pb-6 opacity-0 ${isInView ? "animate-slide-up" : ""}`}>
-							About
+							className={`font-bold text-3xl pb-6 opacity-0 ${isInView ? "animate-slide-up" : ""}`}>
+							Despre noi
 						</h2>
 					</div>
 
-					<p>
-						A Istanbul sono a casa, ho un passato e un futuro, ho un presente che è Dio, e fa la
-						cameriera.
-						<a
-							className="text-yellow-btn-primary underline underline-offset-4 hover:text-yellow-600"
-							href="https://www.paninopanini.co.uk/"
-							target="_blank"
-							rel="noreferrer">
-							Ut labore et
-						</a>
-						dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.
+					<p className="text-lg lg:text-xl">
+						Mission / Groove este o trupă de improvizație live formată din patru muzicieni care transformă fiecare apariție într-o experiență unică.
+Marius (saxofon), Traian (chitară), Mareș (bass) și Vlad (tobe) creează împreună un sound vibrant, inspirat din jazz, funk și lounge, construit în timp real.
 					</p>
-					<p className="pt-8">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-						<a
-							className="text-yellow-btn-primary underline underline-offset-4 hover:text-yellow-600"
-							href="https://www.paninopanini.co.uk/"
-							target="_blank"
-							rel="noreferrer">
-							eiusmod tempor
-						</a>
-						. Chiudi un po&#8217; la finestra, mezzogiorno in penombra, sfondo bianco e pulito,
-						sfondo bianco e pulito.
+					<br/>
+					<p className="text-lg lg:text-xl">
+					Fiecare moment pe scenă este o conversație muzicală: spontană, elegantă și plină de energie bună.
+Mission / Groove înseamnă vibe, libertate și muzică vie.	
 					</p>
 					<div className="flex pt-8 gap-4">
-						<svg
-							fill="#1C2033"
-							width="52"
-							height="52"
-							viewBox="0 0 580 480"
-							xmlns="http://www.w3.org/2000/svg">
-							<path d="M125.72,34.38c66.5,49.92,138.02,151.14,164.28,205.46,26.26-54.32,97.78-155.54,164.28-205.46,47.98-36.02,125.72-63.89,125.72,24.79,0,17.71-10.16,148.79-16.11,170.07-20.7,73.98-96.14,92.85-163.25,81.43,117.3,19.96,147.14,86.09,82.7,152.22-122.39,125.59-175.91-31.51-189.63-71.77-2.51-7.38-3.69-10.83-3.71-7.9-.02-2.94-1.19.52-3.71,7.9-13.71,40.26-67.23,197.36-189.63,71.77-64.44-66.13-34.6-132.26,82.7-152.22-67.11,11.42-142.55-7.45-163.25-81.43C10.15,207.96,0,76.88,0,59.17,0-29.52,77.74-1.65,125.72,34.38h0Z" />
-						</svg>
+				
 						<svg
 							fill="#1C2033"
 							width="52"
@@ -76,10 +54,10 @@ export default function About() {
 				</div>
 			</Container>
 			<Image
-				className="w-full mt-5 max-h-96 object-cover lg:mt-0 lg:max-h-none lg:max-w-lg lg:block xl:max-w-xl"
+				className="w-full mt-5 max-h-128 object-cover lg:mt-0 lg:max-h-none lg:max-w-xl lg:block xl:max-w-2xl hidden lg:block"
 				src="/about.jpg"
-				width={750}
-				height={533}
+				width={950}
+				height={833}
 				alt="Holding guitar"
 			/>
 		</section>

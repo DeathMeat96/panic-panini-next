@@ -12,73 +12,15 @@ const galleryThumbnails = [
 	{
 		id: 1,
 		src: "/gallery/thumbnails/thumbnail-1.jpg",
-		club: "The Golden Eagle.",
-		city: "Miami",
-		date: "12/2/2021",
+		club: "Grand Hotel Bucharest",
+		city: "Bucharest",
+		date: "28/12/2025",
 		slides: [
-			{ src: "/gallery/slider-images/slider-1.jpg" },
-			{ src: "/gallery/slider-images/slider-2.jpg" },
-			{ src: "/gallery/slider-images/slider-3.jpg" },
-		],
-	},
-	{
-		id: 2,
-		src: "/gallery/thumbnails/thumbnail-2.jpg",
-		club: "The Silver Elephant.",
-		city: "Atlanta",
-		date: "23/6/2019",
-		slides: [
-			{ src: "/gallery/slider-images/slider-4.jpg" },
-			{ src: "/gallery/slider-images/slider-5.jpg" },
-			{ src: "/gallery/slider-images/slider-6.jpg" },
-		],
-	},
-	{
-		id: 3,
-		src: "/gallery/thumbnails/thumbnail-3.jpg",
-		club: "The Electric Fox.",
-		city: "Los Angeles",
-		date: "11/3/2019",
-		slides: [
-			{ src: "/gallery/slider-images/slider-7.jpg" },
-			{ src: "/gallery/slider-images/slider-8.jpg" },
-			{ src: "/gallery/slider-images/slider-9.jpg" },
-		],
-	},
-	{
-		id: 4,
-		src: "/gallery/thumbnails/thumbnail-4.jpg",
-		club: "The Cool Mouse.",
-		city: "New York",
-		date: "03/12/2018",
-		slides: [
-			{ src: "/gallery/slider-images/slider-10.jpg" },
-			{ src: "/gallery/slider-images/slider-11.jpg" },
-			{ src: "/gallery/slider-images/slider-12.jpg" },
-		],
-	},
-	{
-		id: 5,
-		src: "/gallery/thumbnails/thumbnail-5.jpg",
-		club: "The Super Cat.",
-		city: "Rome",
-		date: "03/03/2018",
-		slides: [
-			{ src: "/gallery/slider-images/slider-13.jpg" },
-			{ src: "/gallery/slider-images/slider-14.jpg" },
-			{ src: "/gallery/slider-images/slider-15.jpg" },
-		],
-	},
-	{
-		id: 6,
-		src: "/gallery/thumbnails/thumbnail-6.jpg",
-		club: "The Brave Salmon.",
-		city: "Berlin",
-		date: "25/12/2017",
-		slides: [
-			{ src: "/gallery/slider-images/slider-16.jpg" },
-			{ src: "/gallery/slider-images/slider-17.jpg" },
-			{ src: "/gallery/slider-images/slider-18.jpg" },
+			{ src: "/gallery/slider-images/band.jpg" },
+			{ src: "/gallery/slider-images/band2.jpg" },
+			{ src: "/gallery/slider-images/band3.jpg" },
+			{ src: "/gallery/slider-images/band4.jpg" },
+			{ src: "/gallery/slider-images/band5.jpg" },
 		],
 	},
 ];
@@ -97,7 +39,7 @@ export default function PhotoGallery() {
 	return (
 		<section
 			id="photo-gallery"
-			className={`w-full mt-16 pb-14 lg:mt-56 lg:pb-56 lg:mb-90`}
+			className={`w-full mt-32 pb-14 lg:mt-56 lg:pb-12 lg:mb-0`}
 			style={{
 				transform: isInView ? "none" : "translateY(100px)",
 				opacity: isInView ? 1 : 0,
@@ -110,7 +52,7 @@ export default function PhotoGallery() {
 						Gallery
 					</h2>
 				</div>
-				<p>Past shows.</p>
+				
 				<div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-5">
 					{galleryThumbnails.map((item, index) => {
 						return (
